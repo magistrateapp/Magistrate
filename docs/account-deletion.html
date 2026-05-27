@@ -1,0 +1,143 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="color-scheme" content="dark">
+  <meta name="description" content="How to delete your Magistrate account and request data deletion.">
+  <title>Delete Your Magistrate Account</title>
+  <style>
+    :root {
+      --bg: #08080d;
+      --border: #2d2938;
+      --text: #f4f0fb;
+      --muted: #aaa2b8;
+      --dim: #736b82;
+      --accent: #7c6cf8;
+      --gold: #c9a85a;
+      --red: #f43f5e;
+    }
+    * { box-sizing: border-box; }
+    body {
+      margin: 0;
+      color: var(--text);
+      font-family: Inter, ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+      line-height: 1.65;
+      background:
+        radial-gradient(circle at 50% -10%, rgba(124,108,248,.18), transparent 34rem),
+        linear-gradient(180deg, #0b0b11 0%, var(--bg) 55%, #050508 100%);
+    }
+    main {
+      width: min(880px, calc(100% - 32px));
+      margin: 0 auto;
+      padding: 48px 0;
+    }
+    header, section {
+      border: 1px solid var(--border);
+      border-radius: 14px;
+      background: linear-gradient(180deg, rgba(18,18,24,.96), rgba(10,10,15,.96));
+      box-shadow: 0 24px 70px rgba(0,0,0,.28);
+    }
+    header {
+      padding: 32px 28px;
+      margin-bottom: 18px;
+    }
+    section {
+      padding: 24px 26px;
+      margin: 16px 0;
+    }
+    h1 {
+      margin: 0 0 8px;
+      font-family: Georgia, "Times New Roman", serif;
+      font-size: clamp(2rem, 6vw, 4rem);
+      line-height: 1;
+      letter-spacing: .07em;
+      text-transform: uppercase;
+    }
+    h2 { margin: 0 0 12px; font-size: 1.15rem; }
+    p { color: var(--muted); margin: 0 0 14px; }
+    ol, ul { color: var(--muted); margin: 0 0 14px 1.25rem; padding: 0; }
+    li { margin: 7px 0; }
+    strong { color: var(--text); }
+    a {
+      color: var(--gold);
+      text-decoration: none;
+      border-bottom: 1px solid rgba(201,168,90,.35);
+    }
+    a:hover, a:focus {
+      color: var(--text);
+      border-bottom-color: var(--accent);
+    }
+    .kicker {
+      margin: 0 0 8px;
+      color: var(--dim);
+      text-transform: uppercase;
+      letter-spacing: .16em;
+      font-size: .85rem;
+    }
+    .danger {
+      border-color: rgba(244,63,94,.42);
+      background: linear-gradient(180deg, rgba(244,63,94,.08), rgba(10,10,15,.96));
+    }
+    footer {
+      padding: 22px 4px 0;
+      text-align: center;
+      color: var(--dim);
+      font-size: .9rem;
+    }
+  </style>
+</head>
+<body>
+  <main>
+    <header>
+      <p class="kicker">Account Deletion</p>
+      <h1>Magistrate</h1>
+      <p>Use this page to understand how to delete your Magistrate account and associated app data.</p>
+    </header>
+
+    <section>
+      <h2>Delete Your Account In App</h2>
+      <ol>
+        <li>Open the Magistrate app.</li>
+        <li>Sign in to the account you want to delete.</li>
+        <li>Open <strong>Settings</strong>.</li>
+        <li>Go to <strong>Account Deletion</strong>.</li>
+        <li>Tap <strong>Delete</strong>.</li>
+        <li>Type <strong>DELETE</strong> when prompted.</li>
+        <li>Reauthenticate when asked. Email/password users must enter their password. Google users must complete Google sign-in again.</li>
+      </ol>
+      <p>After confirmation, Magistrate attempts to delete your sign-in account and your user-owned cloud data, including profile, decks, games, friends, and notifications.</p>
+    </section>
+
+    <section>
+      <h2>Request Deletion By Email</h2>
+      <p>If you cannot access the app, email <a href="mailto:magistrateapp@gmail.com">magistrateapp@gmail.com</a> from the email address associated with your account.</p>
+      <p>Use the subject line <strong>Magistrate Account Deletion Request</strong> and include the email address used for your Magistrate account. The Service Provider may ask for additional information to verify account ownership before deleting data.</p>
+    </section>
+
+    <section class="danger">
+      <h2>What Is Deleted</h2>
+      <ul>
+        <li>Your Firebase Authentication account</li>
+        <li>Your user profile and public profile</li>
+        <li>Your saved decks</li>
+        <li>Your logged games and surveys</li>
+        <li>Your friends list and notifications stored under your account</li>
+      </ul>
+    </section>
+
+    <section>
+      <h2>Retention Notes</h2>
+      <p>Some information may be retained where required for legal compliance, fraud prevention, accounting, dispute resolution, or other legitimate operational purposes. Aggregated and anonymized data that no longer identifies you may be retained indefinitely.</p>
+      <p>Uninstalling the app stops further collection from your device, but it does not automatically delete information already transmitted to the Service Provider or third-party services.</p>
+    </section>
+
+    <section>
+      <h2>Related Policy</h2>
+      <p>Read the full <a href="./index.html">Magistrate Privacy Policy</a>.</p>
+    </section>
+
+    <footer>Magistrate App</footer>
+  </main>
+</body>
+</html>
